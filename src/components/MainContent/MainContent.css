@@ -1,0 +1,14 @@
+.cards {
+    /* background-color: aqua; */
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    height: 599px;
+    width: 750px;
+    left: 650px;
+    top: 135px;
+    border-radius: 0px;
+    padding: 5px;
+    gap: 10px;
+
+}
