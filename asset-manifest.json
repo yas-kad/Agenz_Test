@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Agenz_Test/static/css/main.f4dfa64f.css",
+    "main.js": "/Agenz_Test/static/js/main.870149d9.js",
+    "static/media/card2.png": "/Agenz_Test/static/media/card2.f19b5019a6c521333b6a.png",
+    "static/media/card3.png": "/Agenz_Test/static/media/card3.e766a026ec4487af21c0.png",
+    "static/media/card1.png": "/Agenz_Test/static/media/card1.63bdfdd15bed8893727e.png",
+    "static/media/card4.png": "/Agenz_Test/static/media/card4.d732b0caa3492950d8e8.png",
+    "static/media/poppins-all-400-normal.woff": "/Agenz_Test/static/media/poppins-all-400-normal.6fbfdac99c274b77fe96.woff",
+    "static/media/poppins-devanagari-400-normal.woff2": "/Agenz_Test/static/media/poppins-devanagari-400-normal.64d5f06ee726edd58ca3.woff2",
+    "static/media/poppins-latin-400-normal.woff2": "/Agenz_Test/static/media/poppins-latin-400-normal.405055dd680fa1dcdfa2.woff2",
+    "static/media/poppins-latin-ext-400-normal.woff2": "/Agenz_Test/static/media/poppins-latin-ext-400-normal.4f38b4331448d2313adc.woff2",
+    "index.html": "/Agenz_Test/index.html",
+    "main.f4dfa64f.css.map": "/Agenz_Test/static/css/main.f4dfa64f.css.map",
+    "main.870149d9.js.map": "/Agenz_Test/static/js/main.870149d9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f4dfa64f.css",
+    "static/js/main.870149d9.js"
+  ]
+}
