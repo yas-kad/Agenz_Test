@@ -1,0 +1,71 @@
+.Buttons_group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: '#460AF0';
+}
+
+.Buttons_group ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px;
+    color: '#460AF0';
+}
+
+.Buttons_group ul li {
+    /* background-color: aqua; */
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #460AF0;
+    padding: 10px;
+    width: 109px;
+    height: 30px;
+    border-radius: 2px;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 500;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.Buttons_group ul li:active {
+    font-weight: 600;
+    border: 2px solid #460AF0;
+}
+
+.Buttons_group li span{
+    width: 8px;
+    height: 8px;
+    background-color: red;
+    border-radius: 50px;
+    margin-right: 5px;
+}
+
+.V_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 2px;
+    width: 87px;
+    height: 30px;
+    cursor: pointer;
+    background-color: #460AF0;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+@media only screen and (max-width: 720px) {
+    .Buttons_group ul li {
+        width: 318px;
+    }
+    .Buttons_group ul {
+        justify-content: center;
+    }
+    .V_btn {
+        width: 318px;
+    }
+}

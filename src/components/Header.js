@@ -1,6 +1,6 @@
 import React from 'react'
 import SearchIcon from '../images/search.png'
-import Button from './Button';
+import Button from './Buttons/Button';
 
 
 function Header() {

@@ -11,12 +11,14 @@ body{
 .container {
     position: relative;
     margin: 0 auto;
-    width: 100%;
+    width: 1400px;
     height: 100vh;
 }
 
 .Nav {
    position: relative;
+   /* width: 100vw; */
+
 }
 
 .Nav-big {
@@ -205,7 +207,7 @@ body{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    padding: 10px 346px 9px 28px;
+    padding: 10px 10px 9px 28px;
     gap: 12px;
     border-bottom: 1.5px solid rgba(0, 0, 0, 0.1);
     width: 100%;
@@ -245,7 +247,8 @@ body{
     padding: 10px;
 }
 
-@media only screen and (max-width: 1400px) {
+
+@media only screen and (max-width: 1300px) {
     .Nav-big {
         display: none;
     }
