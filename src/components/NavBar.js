@@ -82,7 +82,7 @@ function NavBar() {
         {
          mobile ?
         <div className="Nav-mobile">
-            <div className='nav_items'>
+            <div className='nav_itemsM'>
                 <ul>
                     <li onClick={handleClick}>Acheter <img src={MenuIcon}/></li>
                     <li>Louer</li>
@@ -94,6 +94,7 @@ function NavBar() {
                         anchorEl={anchorEl}
                         open={open}
                         onClose={handleClose}
+                        
                     >
                         <MenuItem onClick={handleClose}>Agenz</MenuItem>
                         <MenuItem onClick={handleClose}>Agenz</MenuItem>
@@ -101,7 +102,7 @@ function NavBar() {
                     </Menu>
                 </ul>
             </div>
-            <div className='nav_pro'>
+            <div className='nav_proM'>
                 <ul>
                     <li>
                         <div><img src={LangueIcon} alt='#' style={{width:'24px', height: '24px'}} /></div>

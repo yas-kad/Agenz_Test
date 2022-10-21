@@ -32,6 +32,9 @@ function MainContent() {
 
   return (
     <div className='main-container'>
+        <div className="map-c">
+            <Map />
+        </div>
             <div className='cards'>
                 <div className='annonceTitle'>
                     <div style={{padding: '8px 0px'}}>
@@ -98,10 +101,6 @@ function MainContent() {
                     ville='Marrakech, Ennakhil (Palmeraie)' annonce='Annonce par : Marrakech conseils Invest  ' />
             </div>
 
-        
-        <div className="map-container">
-            <Map />
-        </div>
 
     </div>
   )
