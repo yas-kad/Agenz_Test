@@ -36,6 +36,7 @@ body{
     justify-content: space-between;
     width: 125.42px;
     height: 35px;
+    cursor: pointer;
     filter: drop-shadow(0px 4px 4px rgb(255, 255, 255));
 }
 
@@ -74,10 +75,14 @@ body{
     align-items: center;
     /* justify-content: flex-end; */
     padding: 13px 14px 13px 14px;
-    /* gap: 7px; */
+    cursor: pointer;
+    gap: 10px;
     /* width: 154px;
     height: 24px; */
+}
 
+.nav_items li img {
+    margin-top: 5px;
 }
 
 .nav_pro ul{
@@ -97,6 +102,7 @@ body{
     align-items: flex-start;
     padding: 13px 14px;
     gap: 8px;
+    cursor: pointer;
 }
 
 .nav_pro li a {
@@ -104,8 +110,8 @@ body{
     font-size: 16px;
     line-height: 24px;
     display: flex;
-align-items: center;
-text-align: center;
+    align-items: center;
+    text-align: center;
 }
 
 .lineDiv {
@@ -143,43 +149,15 @@ text-align: center;
 .search_input input {
     border: none;
     width: 263px;
-    /* padding: 10px; */
+}
+
+.search_input input:focus{
+    border: none;
+    outline: none;
 }
 
 .searchIcon button{
     background: none;
     border: none;
     padding: 10px;
-}
-
-
-
-.buttons ul {
-    list-style-type: none;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 12px;
-}
-
-.buttons li {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px 21px;
-    width: 109px;
-    height: 30px;
-    border-radius: 2px;
-    font-size: 12px;
-    line-height: 18px;
-    font-weight: 500;
-}
-
-
-.buttons li span {
-    width: 8px;
-    height: 8px;
-    background-color: red;
-    border-radius: 50%;
-    margin-right: 5px;
 }

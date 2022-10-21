@@ -6,8 +6,24 @@ import LangueIcon from '../images/Mask_group.png'
 import ProfilIcon from '../images/Profil.png'
 import Offre_pro1 from '../images/Offre_pro1.png'
 
+import MenuIcon from '../images/dropdown.png'
+
+import Button from '@mui/material/Button';
+import Menu from '@mui/material/Menu';
+import MenuItem from '@mui/material/MenuItem';
+
 
 function NavBar() {
+
+    const [anchorEl, setAnchorEl] = React.useState(null);
+    const open = Boolean(anchorEl);
+    const handleClick = (event) => {
+        setAnchorEl(event.currentTarget);
+    };
+    const handleClose = () => {
+        setAnchorEl(null);
+    };
+
   return (
     <div className='Nav'>
         <div className='logo_div'>
@@ -20,12 +36,21 @@ function NavBar() {
         </div>
         <div className='nav_items'>
             <ul>
-                <li>Acheter</li>
+                <li onClick={handleClick}>Acheter <img src={MenuIcon}/></li>
                 <li>Louer</li>
-                <li>Estimer</li>
+                <li onClick={handleClick}>Estimer <img src={MenuIcon}/></li>
                 <li>Prix immobiliers</li>
-                <li>Credit</li>
+                <li onClick={handleClick}>Credit <img src={MenuIcon}/></li>
                 <li>Agences</li>
+                <Menu
+                    anchorEl={anchorEl}
+                    open={open}
+                    onClose={handleClose}
+                >
+                    <MenuItem onClick={handleClose}>Agenz</MenuItem>
+                    <MenuItem onClick={handleClose}>Agenz</MenuItem>
+                    <MenuItem onClick={handleClose}>Agenz</MenuItem>
+                </Menu>
             </ul>
         </div>
         <div className='nav_pro'>

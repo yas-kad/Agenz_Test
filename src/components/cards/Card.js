@@ -11,12 +11,6 @@ function Card(props) {
         <div className='cardImg'>
           <img src={CardImg} alt='#' />
         </div>
-        <div className='cardMenu'>
-          <div>title</div>
-          <div className='likeImg'>
-            <img src={LikeImg} alt='#' />
-          </div>
-        </div>
         <div className='cardHeader'>
           <div className='cardTitle'>
             <h2>{Price} MAD</h2>
@@ -32,6 +26,10 @@ function Card(props) {
           </div>
         </div>
       </a>
+      <div className='days-agenz'>3 days on agenz</div>
+      <div className='heart-icon'>
+        <img src={LikeImg} alt='#' />
+      </div>
     </div>
   )
 }
