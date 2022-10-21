@@ -77,13 +77,14 @@ function MainContent() {
 
                     </div>
                 </div>
-            <div className='cards'>
+                  <div className='cards'>
                 {
                     data.map((dt) => {
                         return <Card key={dt.id} CardImg={dt.CardImg} Price={dt.Price} Content={dt.Content} ville={dt.ville} annonce={dt.annonce} />
                     })
                 }
             </div>
+          
         </div>
 
 
