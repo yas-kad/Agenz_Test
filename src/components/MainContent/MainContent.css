@@ -1,38 +1,29 @@
 .main-container {
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap; */
-
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    width: 1400px;
-    height: 100vh;
 
 }
 
-.map-c {
-    width: 650px;
-    height: 100vh;
+.main_cards {
+    width: 100%;
+    box-shadow: -3px 2px 6px rgba(0, 0, 0, 0.3);
 }
 
 .cards {
-    /* background-color: aqua; */
     overflow-y: scroll;
-    /* display: flex;
+
+    display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap; */
+    flex-wrap: wrap;
+    width: 100%;
 
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    height: 100vh;
-    width: 750px;
     border-radius: 0px;
+    margin-top: 20px;
     padding: 5px;
-    gap: 8px;
+    gap: 12px;
     z-index: 1;
-    box-shadow: -3px 2px 6px rgba(0, 0, 0, 0.3);
+    
 }
 
 .annonceTitle {
@@ -51,6 +42,19 @@
     width: 100%;
 }
 
+.filtre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.filter span {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+}
+
 .drop_date{
     list-style-type: none;
     border: 1px solid #D1D1D5;
@@ -60,7 +64,7 @@
     
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 2200px) {
     .main-container {
         display: grid;
         grid-template-columns: repeat(1, 1fr);

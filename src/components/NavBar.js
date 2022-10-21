@@ -9,7 +9,6 @@ import Offre_pro1 from '../images/Offre_pro1.png'
 import {FaBars} from 'react-icons/fa'
 import MenuIcon from '../images/dropdown.png'
 
-import Button from '@mui/material/Button';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 
@@ -33,23 +32,23 @@ function NavBar() {
 
   return (
     <div className='Nav'>
-       
-        <div className="Nav-big">
-            <div className='logo_div'>
+         <div className='logo_div'>
                 <div className='logo_img'>
                     <img src={logo} alt='#' />
                 </div>
                 <div className='logo_title'>
                     <img src={logo1} alt='#' />
                 </div>
-            </div>
+        </div>
+        <div className="Nav-big">
+           
             <div className='nav_items'>
                 <ul>
-                    <li onClick={handleClick}>Acheter <img src={MenuIcon}/></li>
+                    <li onClick={handleClick}>Acheter <img src={MenuIcon} alt='#'/></li>
                     <li>Louer</li>
-                    <li onClick={handleClick}>Estimer <img src={MenuIcon}/></li>
+                    <li onClick={handleClick}>Estimer <img src={MenuIcon} alt='#'/></li>
                     <li>Prix immobiliers</li>
-                    <li onClick={handleClick}>Credit <img src={MenuIcon}/></li>
+                    <li onClick={handleClick}>Credit <img src={MenuIcon} alt='#'/></li>
                     <li>Agences</li>
                     <Menu
                         anchorEl={anchorEl}
@@ -66,14 +65,14 @@ function NavBar() {
                 <ul>
                     <li>
                         <div><img src={LangueIcon} alt='#' style={{width:'24px', height: '24px'}} /></div>
-                        <div><a>Arabe</a></div>
+                        <div>Arabe</div>
                     </li>
                     <li>
                         <div><img src={ProfilIcon} alt='#' style={{width:'24px', height: '24px'}} /></div>
-                        <div><a>Connexion</a></div>
+                        <div>Connexion</div>
                     </li>
                     <li>
-                        <div> <a>Offres pro</a></div>
+                        <div>Offres pro</div>
                         <div><img src={Offre_pro1} alt='#' style={{width:'24px', height: '24px'}} /></div>
                     </li>
                 </ul>
@@ -84,11 +83,11 @@ function NavBar() {
         <div className="Nav-mobile">
             <div className='nav_itemsM'>
                 <ul>
-                    <li onClick={handleClick}>Acheter <img src={MenuIcon}/></li>
+                    <li onClick={handleClick}>Acheter <img src={MenuIcon} alt='#'/></li>
                     <li>Louer</li>
-                    <li onClick={handleClick}>Estimer <img src={MenuIcon}/></li>
+                    <li onClick={handleClick}>Estimer <img src={MenuIcon} alt='#'/></li>
                     <li>Prix immobiliers</li>
-                    <li onClick={handleClick}>Credit <img src={MenuIcon}/></li>
+                    <li onClick={handleClick}>Credit <img src={MenuIcon} alt='#'/></li>
                     <li>Agences</li>
                     <Menu
                         anchorEl={anchorEl}
@@ -106,14 +105,14 @@ function NavBar() {
                 <ul>
                     <li>
                         <div><img src={LangueIcon} alt='#' style={{width:'24px', height: '24px'}} /></div>
-                        <div><a>Arabe</a></div>
+                        <div>Arabe</div>
                     </li>
                     <li>
                         <div><img src={ProfilIcon} alt='#' style={{width:'24px', height: '24px'}} /></div>
-                        <div><a>Connexion</a></div>
+                        <div>Connexion</div>
                     </li>
                     <li>
-                        <div> <a>Offres pro</a></div>
+                        <div>Offres pro</div>
                         <div><img src={Offre_pro1} alt='#' style={{width:'24px', height: '24px'}} /></div>
                     </li>
                 </ul>
