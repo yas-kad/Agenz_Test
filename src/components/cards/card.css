@@ -2,17 +2,19 @@
     width: 355px;
     height: 281px;
     position: relative;
-    border-radius: 4px;
+    border-radius: 2px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 }
 
 
 .cardImg {
-    border-radius: 4px;
+    height: 177px;
+    width: 355px;
+    border-radius: 2px;
 }
 
 .cardImg img {
-    border-radius: 4px 4px 0px 0px;
+    border-radius: 2px 2px 0px 0px;
 }
 
 

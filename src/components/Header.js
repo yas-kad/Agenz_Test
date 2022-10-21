@@ -16,7 +16,9 @@ function Header() {
                 </div>
             </form>
         </div>
-        <Button />
+        <div>
+            <Button />
+        </div>
     </div>
   )
 }
