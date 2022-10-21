@@ -11,7 +11,7 @@ body{
 .container {
     position: relative;
     margin: 0 auto;
-    width: 1400px;
+    max-width: 1400px;
     height: 100vh;
 }
 
@@ -248,7 +248,7 @@ body{
 }
 
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1200px) {
     .Nav-big {
         display: none;
     }
@@ -266,6 +266,6 @@ body{
     }
     .header_searchBar {
         justify-content: center;
-        padding: 0px;
+        padding: 10px 10px 9px 28px;
     }
 }
