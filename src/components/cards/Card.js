@@ -1,8 +1,6 @@
 import React, {useState} from 'react'
 import './card.css'
-import {BsHeartFill} from 'react-icons/bs'
-import LikeImg from '../../images/like.png'
-import DisLikeImg from '../../images/dislike.png'
+import {BsSuitHeartFill} from 'react-icons/bs'
 
 function Card(props) {
 
@@ -26,7 +24,7 @@ function Card(props) {
        </div>
       <div className='days-agenz'>3 days on agenz</div>
       <div className='heart-icon' onClick={handleLike}>
-        <BsHeartFill style={{ opacity: !islike ? "0.7" : "1",color: islike ? "white" : "black", fontSize:"28px"}} />
+        <BsSuitHeartFill style={{color: islike ? "white" : "black", fontSize:"28px"}} />
       </div>
     </div>
   )
